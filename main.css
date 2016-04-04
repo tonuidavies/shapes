@@ -1,0 +1,110 @@
+body{background-color: yellow;
+align-content: center;
+    text-align: center;
+}
+
+
+#square {
+	width: 100px;
+	height: 100px;
+	background: red;
+    margin: 0 auto;
+}
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+    margin: 0 auto;
+}
+#rectangle {
+	width: 200px;
+	height: 100px;
+	background: purple;
+    margin: 0 auto;
+}
+		
+#circle {
+	width: 100px;
+	height: 100px;
+	background: grey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    margin: 0 auto;
+    
+
+}
+
+/* Cleaner, but slightly less support: use "50%" as value */
+#trapezoid {
+	border-bottom: 100px solid white;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+     margin: 0 auto;
+}
+#star-five {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: black;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid black;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+    margin: 0 auto;
+}
+#star-five:before {
+   border-bottom: 80px solid black;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+margin: 0 auto;
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: black;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid black;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+    margin: 0 auto;
+}
+		#parallelogram {
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: green;
+             margin: 0 auto;
+}
+						
+				
